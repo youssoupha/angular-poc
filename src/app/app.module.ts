@@ -32,6 +32,10 @@ import { HeroService } from './service/hero.service';
       {
         path: 'heroes',
         component: HeroesComponent
+      },
+      {
+        path: 'details/:id',
+        component: HeroDetailComponent
       }
     ]),
     BrowserModule,
